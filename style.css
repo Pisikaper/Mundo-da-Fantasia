@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*----------------------PARÂMETROS E VARIÁVEIS----------------------*/
+*{
+    font-family: var(--fonte-padrão);
+    color: rgb(0, 0, 0);
+}
+:root{
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+}
+
+/*----------------------CABEÇALHO----------------------*/
+.cabeçalho{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.714), rgba(188, 188, 42, 0.911));
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-padrão);
+    margin-top: -22px;
+    margin-left: -8px;
+    margin-right: -8px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.471);
+}
+.cabeçalho > h1{
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 50px 0px;
+
+}
+.cabeçalho > nav{
+    background-color: transparent;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.cabeçalho > nav > a{
+    color: black;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: -4px;
+    padding: 5px 5px 7px 5px;
+    border-radius: 3px;
+}
+.cabeçalho > nav > a:hover{
+    background-color: rgb(0, 0, 0) ;
+    transition-duration: 0.8s;
+    box-shadow: 5px;
+}
+
+#título{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    margin: 0px -8px;
+    padding: 24px 10px;
+
+
+}
+
+/*----------------------PRIMEIRO BLOCO----------------------*/
+
+.blocohogwarts{
+    background-color: black;
+    margin: 0px -8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#hogwartslogo{
+    background-color: blue;
+    margin-top: 60px;
+    width: 520px;
+    height: 520px;
+}
+
+.blocohogwarts > p{
+    background-color: blueviolet;
+    margin-top: 60px;
+    width: 520px;
+    height: 520px;
+}
+

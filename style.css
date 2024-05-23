@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; /*Configuração de compatibilidade com caracteres especiais*/
 
 /*----------------------PARÂMETROS E VARIÁVEIS----------------------*/
 *{
@@ -68,7 +68,7 @@
 }
 
 #hogwartslogo{
-    background-color: blue;
+    background-color: rgb(6, 6, 129);
     margin-top: 60px;
     width: 520px;
     height: 520px;
